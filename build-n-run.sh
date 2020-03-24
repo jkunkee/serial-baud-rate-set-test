@@ -1,4 +1,4 @@
 #!/bin/bash
 
-gcc -o test test.c && ./test
+gcc -o test test.c && strace ./test && echo PASSED
 
